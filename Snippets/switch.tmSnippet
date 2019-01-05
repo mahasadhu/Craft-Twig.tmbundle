@@ -6,10 +6,10 @@
 	<string>{% switch ${1:variable} %}
 
 	{% case "${2:value1}" %}
-	
+
 
 	{% case "${3:value2}" %}
-	
+
 
 	{% default %}
 	

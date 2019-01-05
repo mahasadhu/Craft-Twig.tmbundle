@@ -1,6 +1,5 @@
 {# Craft-Twig Unit Test #}
 
-
 FILTERS & FUNCTIONS
 ------------------------------------------------------------
 
@@ -250,11 +249,8 @@ Craft-specific Tags
 {% cache %}{% endcache %}
 {% exit %}{% endexit %}
 {% header %}{% endheader %}
-{% includeCss %}{% endincludeCss %}
-{% includeCssFile %}{% endincludeCssFile %}
-{% includeHiResCss %}{% endincludeHiResCss %}
-{% includeJs %}{% endincludeJs %}
-{% includeJsFile %}{% endincludeJsFile %}
+{% css %}{% endcss %}
+{% js %}{% endjs %}
 {% nav %}{% endnav %}
 {% paginate %}{% endpaginate %}
 {% redirect %}{% endredirect %}
@@ -486,19 +482,14 @@ The last 5 entries:
     {% endfor %}
 </ul>
 
-{% includeJs 'dog' %}
+{% if craft.app.isMultiSite %}{% endif %}
+
+{% do view.registerCssFile ("/resources/css/global.css") %}
+{% do view.registerJsFile("/resources/js/global.js") %}
 
 <h1>{{ siteName }}</h1>
 
 Today is {{ now.format('M j, Y') }}.
-
-
-EMBED CSS & JAVASCRIPT
-** Only supports the `set css` and `set js` variables `css` and `js`
-This is because Ruby doesn't support variable-length lookbehinds,
-so we can't look for an arbitrary length variable name being set
-like `myCss` or `descriptiveLabelCss`.
-------------------------------------------------------------
 
 {% for image in craft.assets.
     .sourceId('1')
@@ -508,13 +499,11 @@ like `myCss` or `descriptiveLabelCss`.
     <img src="{{ image.url('thumb') }}" width="200" height="200" alt="{{ image.title }}">
 {% endfor %}
 
-{% includecss %}
-.contactent {
-    color: {{ entry.textColor ~ 'waooo' }};
-}
-{% endincludecss %}
+EMBED CSS & JAVASCRIPT
+** Only supports the `css` and `js` block tags.
+------------------------------------------------------------
 
-{% includehirescss %}
+{% css %}
 .content {
     color: {{ entry.textColor }};
 }
@@ -524,14 +513,14 @@ div #thing {
 .content {
     color: {{ entry.textColor }};
 }
-{% endincludehirescss %}
+{% endcss %}
 
-{% includejs %}
+{% js %}
 _gaq.push([ "_trackEvent", "Search", "{{ searchTerm|e('js') }}" ]);
 
 (function() {
-        variabler dog = 'woom';
+        variable dog = 'woof';
 })
-{% endincludejs %}
+{% endjs %}
 
 

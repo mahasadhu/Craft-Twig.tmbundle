@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% endembed %}</string>
+	<key>name</key>
+	<string>twig: endembed</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>endembed</string>
+	<key>uuid</key>
+	<string>C20012CD-7C36-41F6-8CBD-FEC094FF8D15</string>
+</dict>
+</plist>

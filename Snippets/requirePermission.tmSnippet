@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% requirePermission "${1:spendTheNight}" %}
-$0</string>
+	<string>{% requirePermission "${1:spendTheNight}" %}</string>
 	<key>name</key>
-	<string>requirePermission</string>
+	<string>requirepermission</string>
 	<key>scope</key>
 	<string>text.html.twig</string>
 	<key>tabTrigger</key>

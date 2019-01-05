@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>craft.app.isMultiSite</string>
+	<key>name</key>
+	<string>ismultisite</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>ismultisite</string>
+	<key>uuid</key>
+	<string>30C05FC3-864B-4BD7-B002-EE8F4409ADA5</string>
+</dict>
+</plist>

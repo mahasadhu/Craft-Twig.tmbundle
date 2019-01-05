@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ redirectInput(${1:url}) }}$0</string>
+	<key>name</key>
+	<string>redirectinput</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>redirectinput</string>
+	<key>uuid</key>
+	<string>5F91534D-53E7-4917-AE4E-A375093458B3</string>
+</dict>
+</plist>

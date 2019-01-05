@@ -3,16 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for image in craft.assets.
-	.sourceId('${1:1}')
+	<string>{% for assets in craft.assets.
+	.volume("${1:volumeHandle}")
 	.kind('${2:image}')
-	.limit(${3:10})
-}) %}
-	&lt;img src="{{ image.url${4:('${5:thumb}')} }}" width="${6:200}" height="${7:200}" alt="{{ image.title }}"&gt;
+	.limit(${3:11})
+	.all()
+	%}
+
+{% for image in assets %}
+	&lt;img src="{{ image.url${4:('${5:transformHandle}')} }}" width="${6:200}" height="${7:200}" alt="{{ image.title }}"&gt;
 {% endfor %}
 $0</string>
 	<key>name</key>
-	<string>craft.assets</string>
+	<string>assets</string>
 	<key>scope</key>
 	<string>text.html.twig</string>
 	<key>tabTrigger</key>

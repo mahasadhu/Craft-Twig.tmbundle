@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% requireLogin %}
-$0</string>
+	<string>{% requireLogin %}</string>
 	<key>name</key>
-	<string>requireLogin</string>
+	<string>requirelogin</string>
 	<key>scope</key>
 	<string>text.html.twig</string>
 	<key>tabTrigger</key>

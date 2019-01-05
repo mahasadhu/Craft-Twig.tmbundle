@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>craft.app.request.getQueryParam("${1:name}")$0</string>
+	<key>name</key>
+	<string>getqueryparam</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>getqueryparam</string>
+	<key>uuid</key>
+	<string>9EA94841-27AC-4975-B786-3AFCE977F2B8</string>
+</dict>
+</plist>

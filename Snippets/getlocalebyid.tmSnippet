@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>craft.app.i18n.getLocaleById(${1:1})$0</string>
+	<key>name</key>
+	<string>getlocalebyid</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>getlocalebyid</string>
+	<key>uuid</key>
+	<string>C58334F3-602D-471C-BFFB-0527A8613CBB</string>
+</dict>
+</plist>

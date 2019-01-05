@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>svg("${1:@webroot/assets/svgs/icon.svg}")$0</string>
+	<key>name</key>
+	<string>svg</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>svg</string>
+	<key>uuid</key>
+	<string>C7C9DF43-4E54-4E8F-8135-75E2C3F93790</string>
+</dict>
+</plist>

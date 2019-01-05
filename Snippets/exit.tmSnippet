@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% exit ${1:404} %}</string>
+	<string>{% exit ${1:404} %}$0</string>
 	<key>name</key>
 	<string>exit</string>
 	<key>scope</key>

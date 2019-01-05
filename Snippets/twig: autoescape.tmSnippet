@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% autoescape "${1:type}" %}
+	$0
+{% endautoescape %}</string>
+	<key>name</key>
+	<string>twig: autoescape</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>autoescape</string>
+	<key>uuid</key>
+	<string>2C676BC7-E11A-4463-AF9B-97D960C0A82C</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>siteUrl("${1:path}", ${1:params}, ${1:"https"}, ${1:siteIds})$0</string>
+	<key>name</key>
+	<string>siteurla</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>siteurla</string>
+	<key>uuid</key>
+	<string>FEEED1A5-D002-4045-88AB-BA9C8B6DFC69</string>
+</dict>
+</plist>

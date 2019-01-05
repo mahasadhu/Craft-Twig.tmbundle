@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>craft.app.$0</string>
+	<key>name</key>
+	<string>app</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>app</string>
+	<key>uuid</key>
+	<string>5D4D064F-091C-452B-B918-3C46DE7D71FA</string>
+</dict>
+</plist>

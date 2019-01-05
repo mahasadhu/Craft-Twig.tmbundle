@@ -3,11 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% set asset = ${1:entry.assetFieldHandle}.first() %}
+	<string>{% set asset = ${1:entry.assetFieldHandle}.one() %}
 
 {% if asset %}
-	&lt;img src="{{ asset.getUrl('${2:thumb}') }}" width="{{ asset.getWidth('${2:thumb}') }}" height="{{ asset.getHeight('${2:thumb}') }}" alt="{{ asset.title }}"&gt;
-{% endif %}</string>
+	&lt;img src="{{ asset.getUrl('${2:transformHandle}') }" width="{{ asset.getWidth('${2:transformHandle}') }" height="{{ asset.getHeight('${2:transformHandle}') }" alt="{{ asset.title }}"&gt;
+{% endif %}
+$0</string>
 	<key>name</key>
 	<string>asset</string>
 	<key>scope</key>

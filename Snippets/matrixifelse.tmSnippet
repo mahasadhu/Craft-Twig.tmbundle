@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>{% for block in ${1:entry.matrixFieldHandle} %}
 
-	{% if block.type == '${2:blockHandle}' %}
+	{% if block.type == "${2:blockHandle}" %}
 
 		{{ block.${3:fieldHandle} }}
 

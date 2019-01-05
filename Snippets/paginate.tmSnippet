@@ -3,48 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{# PAGINATION
-		
-For this pagination to work properly, we need to be sure to set
-the paginateBase variable in the template we are including the 
-pagination in.
+	<string>{% paginate ${1:elements} as ${2:pageInfo}, ${3:name} %}
 
-{% set paginateBase = "/blog/p" %}
-#}
+{% for item in ${3:name} %}
+	$0
+{% endfor %}
 
-{% if pageInfo.totalPages &gt; 1 %}
-&lt;ul&gt;
-	{% if pageInfo.currentPage != "1"  %}
-		&lt;li&gt;&lt;a href="{{ paginateBase ~ '1' }}"&gt;First Page&lt;/a&gt;&lt;/li&gt;
-	{% endif %}
-
-	{% if pageInfo.prevUrl %}
-		&lt;li&gt;&lt;a href="{{ pageInfo.prevUrl }}"&gt;Previous Page&lt;/a&gt;&lt;/li&gt;
-	{% endif %}
-
-	{% for pageNumber in 1..pageInfo.totalPages %}
-		&lt;li {% if pageInfo.currentPage == pageNumber %}class="active-page"{% endif %}&gt;
-			&lt;a href="{{ paginateBase ~ pageNumber }}"&gt;{{ pageNumber }}&lt;/a&gt;
-		&lt;/li&gt;
-	{% endfor %}
-
-	{% if pageInfo.nextUrl %}
-		&lt;li&gt;&lt;a href="{{ pageInfo.nextUrl }}"&gt;Next Page&lt;/a&gt;&lt;/li&gt;
-	{% endif %}
-
-	{% if pageInfo.currentPage != pageInfo.total %}
-		&lt;li&gt;&lt;a href="{{ paginateBase ~ pageInfo.total }}"&gt;Last Page&lt;/a&gt;&lt;/li&gt;
-	{% endif %}
-&lt;/ul&gt;
-{% endif %}
-$0</string>
+{% if ${2:pageInfo}.prevUrl %}&lt;a href="{{ ${2:pageInfo}.prevUrl }}"&gt;Previous Page&lt;/a&gt;{% endif %}
+{% if ${2:pageInfo}.nextUrl %}&lt;a href="{{ ${2:pageInfo}.nextUrl }}"&gt;Next Page&lt;/a&gt;{% endif %}</string>
 	<key>name</key>
-	<string>paginate advanced</string>
+	<string>paginate</string>
 	<key>scope</key>
 	<string>text.html.twig</string>
 	<key>tabTrigger</key>
 	<string>paginate</string>
 	<key>uuid</key>
-	<string>D89F710B-B718-40AE-80A8-3DF2149EF58D</string>
+	<string>BEA116CC-AA1A-4675-81A3-8BC2EF57A921</string>
 </dict>
 </plist>

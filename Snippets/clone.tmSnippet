@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>clone(${1:object})$0</string>
+	<key>name</key>
+	<string>clone</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>clone</string>
+	<key>uuid</key>
+	<string>9601346C-9801-4CA0-9329-41770BB622F9</string>
+</dict>
+</plist>

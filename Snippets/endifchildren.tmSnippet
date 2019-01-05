@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endifchildren %}$0</string>
+	<string>{% endifchildren %}</string>
 	<key>name</key>
 	<string>endifchildren</string>
 	<key>scope</key>

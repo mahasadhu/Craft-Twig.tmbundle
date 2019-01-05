@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ beginBody() }}</string>
+	<key>name</key>
+	<string>beginbody</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>beginbody</string>
+	<key>uuid</key>
+	<string>62B339A7-A545-451D-A7C5-4A13D677B725</string>
+</dict>
+</plist>

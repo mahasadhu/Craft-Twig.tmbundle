@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endswitch %}$0</string>
+	<string>{% endswitch %}</string>
 	<key>name</key>
 	<string>endswitch</string>
 	<key>scope</key>
@@ -11,6 +11,6 @@
 	<key>tabTrigger</key>
 	<string>endswitch</string>
 	<key>uuid</key>
-	<string>7193BC5A-A15F-47DE-AD20-275E269A9B65</string>
+	<string>332CB08C-23CD-4C3C-94A0-E83012457D6F</string>
 </dict>
 </plist>

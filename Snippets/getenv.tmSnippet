@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>getenv("${1:VARIABLE}")$0</string>
+	<key>name</key>
+	<string>getenv</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>geteng</string>
+	<key>uuid</key>
+	<string>6D3A43F2-EED2-4C01-BF21-2E29D239C68C</string>
+</dict>
+</plist>

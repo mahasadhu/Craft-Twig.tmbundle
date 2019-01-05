@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>{% for block in ${1:entry.matrixFieldHandle} %}
 
-	{% if block.type == '${2:blockHandle}' %}
+	{% if block.type == "${2:blockHandle}" %}
 		{{ block.${3:fieldHandle} }}
 	{% endif %}
 
-	{% if block.type == '${4:blockHandle}' %}
+	{% if block.type == "${4:blockHandle}" %}
 		{{ block.${5:fieldHandle} }}
 	{% endif %}
 
