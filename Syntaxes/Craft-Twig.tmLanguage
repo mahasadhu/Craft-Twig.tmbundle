@@ -226,12 +226,12 @@
 		<dict>
 			<key>begin</key>
 			<string>(?ix)   # Enable free spacing mode, case insensitive
-			         (?&lt;=\{\%\sincludecss\s\%\}|\{\%\sincludehirescss\s\%\})
+			         (?&lt;=\{\%\scss\s\%\})
 				     </string>
 			<key>comment</key>
 			<string>Add CSS support to set tags that use the pattern "css" in their name</string>
 			<key>end</key>
-			<string>(?ix)(?=\{\%\sendincludecss\s\%\}|\{\%\sendincludehirescss\s\%\})</string>
+			<string>(?ix)(?=\{\%\sendcss\s\%\})</string>
 			<key>name</key>
 			<string>source.css.embedded.twig</string>
 			<key>patterns</key>
@@ -245,13 +245,13 @@
 		<dict>
 			<key>begin</key>
 			<string>(?ix)   # Enable free spacing mode, case insensitive
-			         # Make sure our opening includejs tag has word boundaries
-			         (?&lt;=\{\%\sincludejs\s\%\})
+			         # Make sure our opening js tag has word boundaries
+			         (?&lt;=\{\%\sjs\s\%\})
 				     </string>
 			<key>comment</key>
 			<string>Add JS support to set tags that use the pattern "css" in their name</string>
 			<key>end</key>
-			<string>(?ix)(?=\{\%\sendincludejs\s\%\})</string>
+			<string>(?ix)(?=\{\%\sendjs\s\%\})</string>
 			<key>name</key>
 			<string>source.js.embedded.twig</string>
 			<key>patterns</key>
@@ -523,7 +523,7 @@
 			<string>(?x) # Enable free spacing mode
 			
 					(     # Match all filters with a pipe character in front of them
-			     \s?  # optional space 
+			         \s?  # optional space 
 					 (\|) # a pipe character
 					 \s?  # optional space 
 					 \b   # word boundary
@@ -561,10 +561,10 @@
 						 abs|batch|capitalize|convert_encoding|date|date_modify|default|e(?:scape)?|first|format|join|(?:json|url)_encode|keys|last|length|lower|merge|nl2br|number_format|raw|replace|reverse|round|slice|sort|split|striptags|title|trim|upper|
 						 
 						 # Craft Twig Functions
-						 ceil|floor|getCsrfInput|getFootHtml|getHeadHtml|max|min|round|shuffle|url|
+						 actionInput|alias|beginBody|ceil|className|clone|csrfInput|endBody|floor|getenv|head|redirectInput|round|seq|shuffle|siteUrl|svg|url|
 						 
 						 # Craft Twig Filters
-						 currency|datetime|filesize|filter|group|indexOf|intersect|lcfirst|markdown|md|number|parseRefs|percentage|replace|translate|t|ucfirst|ucwords|without
+						 atom|camel|column|currency|datetime|duration|encenc|filesize|filter|filterByValue|group|hash|id|index|indexOf|intersect|json_encode|kebab|lcfirst|literal|markdown|md|multisort|number|parseRefs|pascal|percentage|replace|rss|snake|time|timestamp|translate|t|ucfirst|ucwords|unique|values|without
 						)
 						|
 						# Also try to match any word at the start of one of our tags that is followed by a parenthesis
@@ -802,7 +802,7 @@
 									 autoescape|do|embed|extends|filter|flush|for|from|if|import|include|macro|sandbox|set|spaceless|use|verbatim|
 
 									 # Craft Twig Tags
-									 cache|case|default|exit|header|includecss|includeCss|includeCssFile|includehirescss|includeHiResCss|includejs|includeJs|includeJsFile|nav|paginate(?!\.)|redirect|requireLogin|requirePermission|switch
+									 cache|css|exit|header|hook|js|nav|ifchildren|children|paginate(?!\.)|redirect|requireLogin|requirePermission|switch|case|default
 								 )
 							 )
 							 (?!\() # Negative lookahead for parenthesis, to make sure this is not a Twig function
