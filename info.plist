@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>version</key>
-	<string>3.0.2</string>
 	<key>contactEmailRot13</key>
 	<string>ora@oneeryfgeratguqrfvta.pbz</string>
 	<key>contactName</key>
 	<string>Ben Parizek</string>
 	<key>description</key>
-	<string></string>
+	<string>A Craft CMS influenced Twig bundle for Sublime Text and Textmate</string>
 	<key>name</key>
 	<string>Craft-Twig</string>
 	<key>uuid</key>
 	<string>901F9B4E-F850-4587-B400-0367C90FAEE4</string>
+	<key>version</key>
+	<string>4.0.0</string>
 </dict>
 </plist>

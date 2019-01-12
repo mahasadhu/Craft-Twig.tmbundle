@@ -173,7 +173,7 @@ To install this bundle in Sublime Text, download the bundle via Package Control 
 
 **A note on upgrading**
 
-If you are upgrading to Craft-Twig v2 or Craft-Twig v3 you may run into a few errors having to do with cache or sessions. If you run into errors, try the following (this example use paths for OSX and Sublime Text 3):
+If you are upgrading to a new major version (e.g. v3 => v4) you may run into a few errors having to do with cache or sessions. If you run into errors, try the following (this example use paths for OSX and Sublime Text 3):
 
 1. Uninstall your previous version of Craft-Twig
 2. Delete any cached version of Craft-Twig in<br>`~/Library/Application Support/Sublime Text 3/Cache/`
