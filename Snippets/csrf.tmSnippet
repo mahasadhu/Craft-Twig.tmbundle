@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{{ csrfInput() }}$0</string>
+	<string>{{ csrfInput() }}</string>
 	<key>name</key>
 	<string>csrf</string>
 	<key>scope</key>
