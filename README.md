@@ -179,7 +179,8 @@ If you are upgrading to a new major version (e.g. v3 => v4) you may run into a f
 2. Delete any cached version of Craft-Twig in<br>`~/Library/Application Support/Sublime Text 3/Cache/`
 3. Delete the Sublime session in<br>`~/Library/Application Support/Sublime Text 3/Local/Session.sublime_session`
 4. Delete the Package Control cache in<br>`~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.cache`
-5. Reinstall the Craft-Twig package
+5. Restart Sublime Text
+6. Reinstall the Craft-Twig package
 
 #### TextMate
 
