@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% verbatim %}
+	<string>{%- verbatim -%}
 	$0
-{% endverbatim %}</string>
+{%- endverbatim -%}</string>
 	<key>name</key>
 	<string>twig: verbatim</string>
 	<key>scope</key>

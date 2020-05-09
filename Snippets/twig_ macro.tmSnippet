@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% macro ${1:name}(${2:params}) %}
+	<string>{%- macro ${1:name}(${2:params}) -%}
 	$0
-{% endmacro %}</string>
+{%- endmacro -%}</string>
 	<key>name</key>
 	<string>twig: macro</string>
 	<key>scope</key>

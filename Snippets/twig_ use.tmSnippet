@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% use "${1:template}" %}$0</string>
+	<string>{%- use "${1:template}" -%}$0</string>
 	<key>name</key>
 	<string>twig: use</string>
 	<key>scope</key>

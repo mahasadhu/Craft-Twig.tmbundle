@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:item} in ${2:items} %}
+	<string>{%- for ${1:item} in ${2:items} -%}
 	$0
-{% endfor %}</string>
+{%- endfor -%}</string>
 	<key>name</key>
 	<string>twig: for</string>
 	<key>scope</key>

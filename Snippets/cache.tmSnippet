@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% cache %}
+	<string>{%- cache -%}
 	$1
-{% endcache %}
+{%- endcache -%}
 $0</string>
 	<key>name</key>
 	<string>cache</string>

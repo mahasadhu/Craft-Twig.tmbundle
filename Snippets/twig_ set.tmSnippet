@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% set ${1:var} = ${2:value} %}$0</string>
+	<string>{%- set ${1:var} = ${2:value} -%}$0</string>
 	<key>name</key>
 	<string>twig: set</string>
 	<key>scope</key>

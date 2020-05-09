@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for block in ${1:entry.matrixFieldHandle} %}
+	<string>{%- for block in ${1:entry.matrixFieldHandle} -%}
 
-	{% if block.type == "${2:blockHandle}" %}
+	{%- if block.type == "${2:blockHandle}" -%}
 
 		{{ block.${3:fieldHandle} }}
 
-	{% elseif block.type == "${4:blockHandle}" %}
+	{%- elseif block.type == "${4:blockHandle}" -%}
 
 		$0
 	
-	{% endif %}
+	{%- endif -%}
 
-{% endfor %}</string>
+{%- endfor -%}</string>
 	<key>name</key>
 	<string>matrixifelse</string>
 	<key>scope</key>

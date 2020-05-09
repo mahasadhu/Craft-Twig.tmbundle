@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for block in ${1:entry.matrixFieldHandle} %}
+	<string>{%- for block in ${1:entry.matrixFieldHandle} -%}
 
-	{% switch block.type %}
+	{%- switch block.type -%}
 
-		{% case "${2:blockHandle}" %}
+		{%- case "${2:blockHandle}" -%}
 
 			{{ block.${3:fieldHandle} }}
 
-		{% case "${4:blockHandle}" %}
+		{%- case "${4:blockHandle}" -%}
 
 			$0
 
-	{% endswitch %}
+	{%- endswitch -%}
 
-{% endfor %}</string>
+{%- endfor -%}</string>
 	<key>name</key>
 	<string>matrixswitch</string>
 	<key>scope</key>

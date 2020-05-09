@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% filter ${1:name} %}
+	<string>{%- filter ${1:name} -%}
 	$0
-{% endfilter %}</string>
+{%- endfilter -%}</string>
 	<key>name</key>
 	<string>twig: filter (block)</string>
 	<key>scope</key>

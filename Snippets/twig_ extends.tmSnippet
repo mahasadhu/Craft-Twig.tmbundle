@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% extends "${1:template}" %}$0</string>
+	<string>{%- extends "${1:template}" -%}$0</string>
 	<key>name</key>
 	<string>twig: extends</string>
 	<key>scope</key>

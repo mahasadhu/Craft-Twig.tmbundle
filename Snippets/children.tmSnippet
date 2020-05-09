@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% children %}$0</string>
+	<string>{%- children -%}$0</string>
 	<key>name</key>
 	<string>children</string>
 	<key>scope</key>

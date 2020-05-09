@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% set tags = craft.tags
+	<string>{%- set tags = craft.tags
 	.group("${1:tagGroupHandle}")
 	.all()
-	%}
+	-%}
 		
 &lt;ul&gt;
-	{% for tag in tags %}
+	{%- for tag in tags -%}
 		&lt;li&gt;{{ tag }}&lt;/li&gt;
-	{% endfor %}
+	{%- endfor -%}
 &lt;/ul&gt;
 $0</string>
 	<key>name</key>

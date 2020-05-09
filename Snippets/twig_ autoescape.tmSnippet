@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% autoescape "${1:type}" %}
+	<string>{%- autoescape "${1:type}" -%}
 	$0
-{% endautoescape %}</string>
+{%- endautoescape -%}</string>
 	<key>name</key>
 	<string>twig: autoescape</string>
 	<key>scope</key>

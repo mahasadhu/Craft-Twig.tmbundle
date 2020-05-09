@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endspaceless %}</string>
+	<string>{%- endspaceless -%}</string>
 	<key>name</key>
 	<string>twig: endspaceless</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endverbatim %}</string>
+	<string>{%- endverbatim -%}</string>
 	<key>name</key>
 	<string>twig: endverbatim</string>
 	<key>scope</key>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% js %}
+	<string>{%- js -%}
 	$1
-{% endjs %}
+{%- endjs -%}
 $0</string>
 	<key>name</key>
 	<string>js</string>

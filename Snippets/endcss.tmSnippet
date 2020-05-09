@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endcss %}</string>
+	<string>{%- endcss -%}</string>
 	<key>name</key>
 	<string>endcss</string>
 	<key>scope</key>

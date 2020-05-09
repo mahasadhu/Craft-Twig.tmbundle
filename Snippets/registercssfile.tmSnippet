@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% do view.registerCssFile ("${1:/resources/css/global.css}") %}$0</string>
+	<string>{%- do view.registerCssFile ("${1:/resources/css/global.css}") -%}$0</string>
 	<key>name</key>
 	<string>registercssfile</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% do view.registerJsFile("${1:/resources/js/global.js}") %}$0</string>
+	<string>{%- do view.registerJsFile("${1:/resources/js/global.js}") -%}$0</string>
 	<key>name</key>
 	<string>registerjsfile</string>
 	<key>scope</key>

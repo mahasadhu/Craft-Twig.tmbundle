@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% set categories = craft.categories
+	<string>{%- set categories = craft.categories
 	.group("${1:categoryGroupHandle}")
 	.limit(${2:11})
 	.all()
-	%}
+	-%}
 
 &lt;ul&gt;
-	{% nav category in categories %}
+	{%- nav category in categories -%}
 		&lt;li&gt;
 			&lt;a href="{{ category.url }}"&gt;{{ category.title }}&lt;/a&gt;
-			{% ifchildren %}
+			{%- ifchildren -%}
 				&lt;ul&gt;
-					{% children %}
+					{%- children -%}
 				&lt;/ul&gt;
-			{% endifchildren %}
+			{%- endifchildren -%}
 		&lt;/li&gt;
-	{% endnav %}
+	{%- endnav -%}
 &lt;/ul&gt;
 $0</string>
 	<key>name</key>

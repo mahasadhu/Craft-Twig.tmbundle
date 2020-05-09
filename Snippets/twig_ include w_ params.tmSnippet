@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% include "${1:template}"${2: with ${3:params}} %}$0</string>
+	<string>{%- include "${1:template}"${2: with ${3:params}} -%}$0</string>
 	<key>name</key>
 	<string>twig: include w/ params</string>
 	<key>scope</key>

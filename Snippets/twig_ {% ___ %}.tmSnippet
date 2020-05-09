@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% ${1:$TM_SELECTED_TEXT} %}$0</string>
+	<string>{%- ${1:$TM_SELECTED_TEXT} -%}$0</string>
 	<key>keyEquivalent</key>
 	<string>^%</string>
 	<key>name</key>
-	<string>twig: {% ... %}</string>
+	<string>twig: {%- ... -%}</string>
 	<key>scope</key>
 	<string>text.html.twig</string>
 	<key>tabTrigger</key>

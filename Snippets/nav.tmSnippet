@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% nav ${1:item} in ${2:items} %}
+	<string>{%- nav ${1:item} in ${2:items} -%}
 	$3
-{% endnav %}
+{%- endnav -%}
 $0</string>
 	<key>name</key>
 	<string>nav</string>

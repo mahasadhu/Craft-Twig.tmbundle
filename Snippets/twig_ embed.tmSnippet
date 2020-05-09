@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% embed "${1:template}" %}
+	<string>{%- embed "${1:template}" -%}
 	$0
-{% endembed %}</string>
+{%- endembed -%}</string>
 	<key>name</key>
 	<string>twig: embed</string>
 	<key>scope</key>

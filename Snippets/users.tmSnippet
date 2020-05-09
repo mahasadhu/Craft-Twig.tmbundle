@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for user in craft.users
+	<string>{%- for user in craft.users
 	.group("${1:userGroupHandle}")
 	.all()
-	%}
+	-%}
 	{{ user.firstName }} {{ user.lastName }}
-{% endfor %}
+{%- endfor -%}
 $0</string>
 	<key>name</key>
 	<string>users</string>

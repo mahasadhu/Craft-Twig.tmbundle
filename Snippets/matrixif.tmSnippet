@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for block in ${1:entry.matrixFieldHandle} %}
+	<string>{%- for block in ${1:entry.matrixFieldHandle} -%}
 
-	{% if block.type == "${2:blockHandle}" %}
+	{%- if block.type == "${2:blockHandle}" -%}
 		{{ block.${3:fieldHandle} }}
-	{% endif %}
+	{%- endif -%}
 
-	{% if block.type == "${4:blockHandle}" %}
+	{%- if block.type == "${4:blockHandle}" -%}
 		{{ block.${5:fieldHandle} }}
-	{% endif %}
+	{%- endif -%}
 
-{% endfor %}
+{%- endfor -%}
 $0</string>
 	<key>name</key>
 	<string>matrixif</string>

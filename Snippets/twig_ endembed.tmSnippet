@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endembed %}</string>
+	<string>{%- endembed -%}</string>
 	<key>name</key>
 	<string>twig: endembed</string>
 	<key>scope</key>

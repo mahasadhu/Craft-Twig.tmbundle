@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endautoescape %}</string>
+	<string>{%- endautoescape -%}</string>
 	<key>name</key>
 	<string>twig: endautoescape</string>
 	<key>scope</key>

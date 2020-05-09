@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% spaceless %}
+	<string>{%- spaceless -%}
 	$0
-{% endspaceless %}</string>
+{%- endspaceless -%}</string>
 	<key>name</key>
 	<string>twig: spaceless</string>
 	<key>scope</key>

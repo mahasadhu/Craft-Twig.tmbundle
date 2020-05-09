@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% from "${1:template}" import "${2:macro}" %}$0</string>
+	<string>{%- from "${1:template}" import "${2:macro}" -%}$0</string>
 	<key>name</key>
 	<string>twig: from</string>
 	<key>scope</key>

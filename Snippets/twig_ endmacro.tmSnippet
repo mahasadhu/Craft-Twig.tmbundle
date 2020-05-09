@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endmacro %}</string>
+	<string>{%- endmacro -%}</string>
 	<key>name</key>
 	<string>twig: endmacro</string>
 	<key>scope</key>

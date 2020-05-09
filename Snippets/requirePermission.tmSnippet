@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% requirePermission "${1:spendTheNight}" %}</string>
+	<string>{%- requirePermission "${1:spendTheNight}" -%}</string>
 	<key>name</key>
 	<string>requirepermission</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% do $1 %}$0</string>
+	<string>{%- do $1 -%}$0</string>
 	<key>name</key>
 	<string>twig: do</string>
 	<key>scope</key>

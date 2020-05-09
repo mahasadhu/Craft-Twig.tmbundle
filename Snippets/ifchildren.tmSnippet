@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% ifchildren %}
+	<string>{%- ifchildren -%}
 	$1
-{% endifchildren %}
+{%- endifchildren -%}
 $0</string>
 	<key>name</key>
 	<string>ifchildren</string>

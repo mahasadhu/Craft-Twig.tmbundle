@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% switch ${1:variable} %}
+	<string>{%- switch ${1:variable} -%}
 
-	{% case "${2:value1}" %}
-
-
-	{% case "${3:value2}" %}
+	{%- case "${2:value1}" -%}
 
 
-	{% default %}
+	{%- case "${3:value2}" -%}
+
+
+	{%- default -%}
 	
 
-{% endswitch %}
+{%- endswitch -%}
 $0</string>
 	<key>name</key>
 	<string>switch</string>

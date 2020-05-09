@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% requireLogin %}</string>
+	<string>{%- requireLogin -%}</string>
 	<key>name</key>
 	<string>requirelogin</string>
 	<key>scope</key>

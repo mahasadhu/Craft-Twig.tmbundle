@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% block ${1:name} %}
+	<string>{%- block ${1:name} -%}
 	$0
-{% endblock %}</string>
+{%- endblock -%}</string>
 	<key>name</key>
 	<string>twig: block (block)</string>
 	<key>scope</key>

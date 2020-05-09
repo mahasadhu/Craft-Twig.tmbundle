@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% endfor %}</string>
+	<string>{%- endfor -%}</string>
 	<key>name</key>
 	<string>twig: endfor</string>
 	<key>scope</key>
